@@ -1,0 +1,11 @@
+<h1><%= @lion.name %></h1>
+<div class="image">
+  <%= image_tag @lion.image %>
+</div>
+<div class="audio">
+  <%= audio_tag @lion.sound, :controls => true %>
+</div>
+<div class="description">
+  <%= @lion.description%>
+</div>
+
