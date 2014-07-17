@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   root 'animals#index'
 
+  get '/hippogriff' => 'animals#hippogriff', :as => :hippogriff
   get '/lion' => 'animals#lion', :as => :lion
-
   get '/tasmanian-devil' => 'animals#tasmanian_devil', :as => :tasmanian_devil
   get '/parakeet' => 'animals#parakeet', :as => :parakeet
   get '/parrot' => 'animals#parrot', as: :parrot
