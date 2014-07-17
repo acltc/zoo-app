@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   root 'animals#index'
 
   get '/lion' => 'animals#lion', :as => :lion
+  get '/parakeet' => 'animals#parakeet', :as => :parakeet
+
 
 
   get '/parrot' => 'animals#parrot', as: :parrot

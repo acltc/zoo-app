@@ -6,7 +6,17 @@ class AnimalsController < ApplicationController
     @lion = Lion.new
   end
 
+
   def parrot
     @parrot = Parrot.new
   end
+
+  def hippogriff
+    @hippogriff = Hippogriff.new
+  end
+
+  def parakeet
+    @parakeet = Parakeet.new
+  end
+
 end
