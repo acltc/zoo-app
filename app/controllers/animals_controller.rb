@@ -9,6 +9,14 @@ class AnimalsController < ApplicationController
     @macaw = Macaw.new
   end
 
+  def tasmanian_devil
+    @tasmanian_devil = TasmanianDevil.new
+
+  def parrot
+    @parrot = Parrot.new
+
+  end
+
   def hippogriff
     @hippogriff = Hippogriff.new
   end
@@ -16,5 +24,4 @@ class AnimalsController < ApplicationController
   def parakeet
     @parakeet = Parakeet.new
   end
-
 end
