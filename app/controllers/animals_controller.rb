@@ -9,5 +9,20 @@ class AnimalsController < ApplicationController
 
   def ostrich
     @ostrich = Ostrich.new
+
+  def tasmanian_devil
+    @tasmanian_devil = TasmanianDevil.new
+
+  def parrot
+    @parrot = Parrot.new
+
+  end
+
+  def hippogriff
+    @hippogriff = Hippogriff.new
+  end
+
+  def parakeet
+    @parakeet = Parakeet.new
   end
 end

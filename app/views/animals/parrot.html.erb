@@ -1,0 +1,11 @@
+<h1><%= @parrot.name %></h1>
+
+<div class="image my-image">
+  <%= image_tag @parrot.image %>
+</div>
+<div class="audio">
+  <%= audio_tag @parrot.sound, :controls => true %>
+</div>
+<div class="description">
+  <%= @parrot.description %>
+</div>

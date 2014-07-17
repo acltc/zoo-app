@@ -1,0 +1,11 @@
+<h1><%= @hippogriff.name %></h1>
+<div class="image">
+  <%= image_tag @hippogriff.image %>
+</div>
+<div class="audio">
+  <%= audio_tag @hippogriff.sound, :controls => true %>
+</div>
+<div class="description">
+  <%= @hippogriff.description %>
+</div>
+
