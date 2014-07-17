@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   get '/lion' => 'animals#lion', :as => :lion
 
+
+  get '/parrot' => 'animals#parrot', as: :parrot
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
