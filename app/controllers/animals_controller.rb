@@ -8,4 +8,13 @@ class AnimalsController < ApplicationController
   def macaw
     @macaw = Macaw.new
   end
+
+  def hippogriff
+    @hippogriff = Hippogriff.new
+  end
+
+  def parakeet
+    @parakeet = Parakeet.new
+  end
+
 end
