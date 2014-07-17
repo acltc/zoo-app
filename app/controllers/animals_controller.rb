@@ -1,4 +1,5 @@
 class AnimalsController < ApplicationController
+  
   def index
   end
 
@@ -8,6 +9,9 @@ class AnimalsController < ApplicationController
   def macaw
     @macaw = Macaw.new
   end
+
+  def ostrich
+    @ostrich = Ostrich.new
 
   def tasmanian_devil
     @tasmanian_devil = TasmanianDevil.new
