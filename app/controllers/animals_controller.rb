@@ -8,6 +8,10 @@ class AnimalsController < ApplicationController
 
   def tasmanian_devil
     @tasmanian_devil = TasmanianDevil.new
+
+  def parrot
+    @parrot = Parrot.new
+
   end
 
   def hippogriff
