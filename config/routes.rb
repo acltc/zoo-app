@@ -2,11 +2,13 @@ Rails.application.routes.draw do
   root 'animals#index'
 
   get '/lion' => 'animals#lion', :as => :lion
+
   get '/tasmanian-devil' => 'animals#tasmanian_devil', :as => :tasmanian_devil
   get '/parakeet' => 'animals#parakeet', :as => :parakeet
   get '/parrot' => 'animals#parrot', as: :parrot
-
   get '/ostrich' => 'animals#ostrich', :as => :ostrich
+  get '/macaw' => 'animals#macaw', :as => :macaw
+  get '/parakeet' => 'animals#parakeet', :as => :parakeet
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
