@@ -9,4 +9,9 @@ class AnimalsController < ApplicationController
   def hippogriff
     @hippogriff = Hippogriff.new
   end
+
+  def parakeet
+    @parakeet = Parakeet.new
+  end
+
 end
