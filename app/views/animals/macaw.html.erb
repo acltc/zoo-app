@@ -1,0 +1,10 @@
+<h1><%= @macaw.name %></h1>
+<div class="image">
+  <%= image_tag @macaw.image %>
+</div>
+<div class="audio">
+  <%= audio_tag @macaw.sound, :controls => true %>
+</div>
+<div class="description">
+  <%= @macaw.description %>
+</div>
