@@ -6,6 +6,11 @@ class AnimalsController < ApplicationController
   def lion
     @lion = Lion.new
   end
+
+  def horse
+      @horse = Horse.new
+  end
+
   def macaw
     @macaw = Macaw.new
   end
@@ -28,4 +33,5 @@ class AnimalsController < ApplicationController
   def parakeet
     @parakeet = Parakeet.new
   end
+
 end
