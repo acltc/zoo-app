@@ -5,4 +5,9 @@ class AnimalsController < ApplicationController
   def lion
     @lion = Lion.new
   end
+
+  def horse
+      @horse = Horse.new
+  end
+
 end
