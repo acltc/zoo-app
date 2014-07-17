@@ -12,7 +12,7 @@ class AnimalsController < ApplicationController
 
   def ostrich
     @ostrich = Ostrich.new
-
+  end
   def tasmanian_devil
     @tasmanian_devil = TasmanianDevil.new
   end
